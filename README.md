@@ -2,7 +2,7 @@
 
 As data scientists and, by extension, statisticians, our job is to perform tests and create models about a *target population* from data collected on a *sample* of that population. 
 
-Let's say we want to find out the percentage of people in the world who like mint ice cream. We can survey a group of people of maybe 100 people to find out that 89% are mint ice cream enjoyers. Concluding that 89% of all 7 billion people on Earth enjoy mint ice cream is not good practice. However, continuing to survey people until all 7 billion opinions have been recorded is close to impossible, incredibly time-consuming, and expensive. This is where **bootstrapping**  comes in as a solution to our problem. 
+Let's say we want to find out the percentage of people in the world who like mint ice cream. We can survey a group of 100 people to find out that 89% are mint ice cream enjoyers. Concluding that 89% of all 7 billion people on Earth enjoy mint ice cream is not good practice. However, continuing to survey people until all 7 billion opinions have been recorded is close to impossible, incredibly time-consuming, and expensive. This is where **bootstrapping**  comes in as a solution to our problem. 
 
 ## A quick introduction
 
@@ -36,7 +36,7 @@ For the first two applications, we begin with a sample of 100 observations rando
 
 ### 1. Means
 
-For the bootstrapped means, we follow the steps in our methodology above. We calculate the mean for each bootstrapped sample, and plot them in a histogram. We repeated this 100, 1,000, and 10,000 times. As we can see below, the histograms become smoother as we repeat our process many times. The resulting final histogram with 10,000 replications is a perfect bell-curve, similar to that of a Gaussian distribution.
+For the bootstrapped means, we follow the steps in our methodology above. We calculate the mean for each bootstrapped sample and plot them in a histogram. We repeated this 100, 1,000, and 10,000 times. As we can see below, the histograms become smoother as we repeat our process many times. The resulting final histogram with 10,000 replications is a perfect bell-curve, similar to that of a Gaussian distribution.
 
 ![Image of bootstrapped means](imgs/means.png)
 
@@ -60,7 +60,7 @@ The third and final application of bootstrapping is used in data science classif
 To read more about applications of bootstrapping, as well as different types, such as non-parametric, Bayesian, etc. bootstrapping, check out [Jillian Green's Medium article](https://jillian-green.medium.com/applications-of-bootstrapping-8240da9df6d7))
 
 ## Summary
-**Bootstrapping** is a statistical technique in which we replicate an existing dataset by resampling uniformly with replacement many times. The resulting bootstrapped samples and their corresponding statistic can then be accumulated into a final dataset that gives us important information about the overall target population. Since it is performed with minimal time, financial, and computational resources, which makes it a powerful tool in statistics and data science fields.
+**Bootstrapping** is a statistical technique in which we replicate an existing dataset by resampling uniformly with replacement many times. The resulting bootstrapped samples and their corresponding statistic can then be accumulated into a final dataset that gives us important information about the overall target population. It is performed with minimal time, and financial resources, which makes it a powerful tool in statistics and data science fields.
 
 ## More resources
 * [StatQuest - *Bootstrapping Main Ideas!!!*](https://www.youtube.com/watch?v=Xz0x-8-cgaQ&ab_channel=StatQuestwithJoshStarmer)
