@@ -32,7 +32,7 @@ Bootstrapping is an incredibly versatile tool for improving statistical inferenc
 
 For the first two applications, we begin with a sample of 100 observations randomly selected from a range from 1 to 100. 
 
-![Image of the initial dataset with 100 randomly selected observations](random.png)
+![Image of the initial dataset with 100 randomly selected observations](imgs/random.png)
 
 ### 1. Means
 
@@ -46,7 +46,7 @@ This is what we expect to see. Following [Central Limit Theorem](https://en.wiki
 
 Just as we did for the means, we follow the steps in our methodology, except with sample medians. 
 
-![Image of bootstrapped medians](medians.png)
+![Image of bootstrapped medians](imgs/medians.png)
 
 Unlike the bootstrapped sample means, however, there is no pretty distribution. Since there is no set theorem used to estimate the true population median, we do not observe a pretty bell-curve. Yet, this is a particularly useful application of bootstrapping. We can use bootstrapping to learn more about the distributions of statistics that do not have pre-established theorems like CLT. 
 
@@ -54,7 +54,7 @@ Unlike the bootstrapped sample means, however, there is no pretty distribution. 
 
 The third and final application of bootstrapping is used in data science classification problems. Here, bootstrapping is used to do [*bootstrap aggregating*](https://machinelearningmastery.com/essence-of-bootstrap-aggregation-ensembles/) or *bagging*. The idea is to create many bootstrapped samples (or *bags*) of the original data, train a decision tree model on each sample, and aggregate them into a final random forest model. 
 
-![Bagging](bagging.png)
+![Bagging](imgs/bagging.png)
 *image credit: Bagging vs. Boosting in Machine Learning; GeeksforGeeks* 
 
 To read more about applications of bootstrapping, as well as different types, such as non-parametric, Bayesian, etc. bootstrapping, check out [Jillian Green's Medium article](https://jillian-green.medium.com/applications-of-bootstrapping-8240da9df6d7))
