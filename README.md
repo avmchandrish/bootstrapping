@@ -38,7 +38,7 @@ For the first two applications, we begin with a sample of 100 observations rando
 
 For the bootstrapped means, we follow the steps in our methodology above. We calculate the mean for each bootstrapped sample, and plot them in a histogram. We repeated this 100, 1,000, and 10,000 times. As we can see below, the histograms become smoother as we repeat our process many times. The resulting final histogram with 10,000 replications is a perfect bell-curve, similar to that of a Gaussian distribution.
 
-![Image of bootstrapped means](means.png)
+![Image of bootstrapped means](imgs/means.png)
 
 This is what we expect to see. Following [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), the distribution of many sample means will tend towards a normal distribution curve. In this way, we may be able to observe the true population mean, using just our sample data.
 
